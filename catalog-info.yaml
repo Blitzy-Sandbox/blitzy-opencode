@@ -5,9 +5,9 @@ metadata:
   description: "Open source coding agent fork — exploring AI-assisted development tooling"
   tags:
     - go
-    - scaffolded
+    - infrastructure
+    - new-feature
   labels:
-    blitzy.com/status: scaffolded
     blitzy.com/language: go
   annotations:
     github.com/project-slug: Blitzy-Sandbox/blitzy-opencode
