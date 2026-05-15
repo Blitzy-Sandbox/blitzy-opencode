@@ -2,11 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: blitzy-opencode
-  description: "Open source coding agent fork — exploring AI-assisted development tooling"
+  description: Open source coding agent fork — exploring AI-assisted development tooling
   tags:
-    - go
-    - infrastructure
-    - new-feature
+  - ai
+  - go
+  - infrastructure
+  - new-feature
+  - typescript
   labels:
     blitzy.com/language: go
   annotations:
@@ -14,11 +16,11 @@ metadata:
     github.com/project-slug: Blitzy-Sandbox/blitzy-opencode
     backstage.io/source-location: url:https://github.com/Blitzy-Sandbox/blitzy-opencode/tree/dev/
   links:
-    - url: https://github.com/Blitzy-Sandbox/blitzy-opencode
-      title: GitHub Repository
-    - url: https://github.com/Blitzy-Sandbox/blitzy-opencode/tree/dev/blitzy/documentation
-      title: Blitzy Documentation
-      icon: docs
+  - url: https://github.com/Blitzy-Sandbox/blitzy-opencode
+    title: GitHub Repository
+  - url: https://github.com/Blitzy-Sandbox/blitzy-opencode/tree/dev/blitzy/documentation
+    title: Blitzy Documentation
+    icon: docs
 spec:
   type: library
   lifecycle: experimental
